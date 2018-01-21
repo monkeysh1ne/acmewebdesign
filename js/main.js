@@ -26,6 +26,16 @@ function submitForm(e){
 	// Save message
 	saveMessage(email);
 
+	// Show alert
+	document.querySelector('.alert').style.display = 'block';
+
+	// Hide alert after 3 seconds
+	setTimeout(function(){
+		document.querySelector('.alert').style.display = 'none';
+	}, 3000);
+
+	// Clear email form input field
+	document.getElementById('newsletterSubrscibeForm').reset();
 
 }
 

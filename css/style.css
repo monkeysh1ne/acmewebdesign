@@ -38,6 +38,20 @@ ul{
 }
 
 
+/* Subscription Alert */
+.alert{
+	margin-top: 10px;
+	padding: 10px;
+	background: #79c879;
+	color: #ffffff;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	display: none;
+
+}
+
+
 .dark{
 	padding: 15px;
 	background: #35424a;
