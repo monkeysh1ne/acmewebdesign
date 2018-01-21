@@ -28,8 +28,15 @@ ul{
 	border: 0;
 	padding-left: 20px;
 	padding-right: 20px;
+	color: #000000;
+}
+
+
+#button_1:hover, #button_1:focus{
+	background: #9d2f10;
 	color: #ffffff;
 }
+
 
 .dark{
 	padding: 15px;
